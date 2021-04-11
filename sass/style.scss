@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Raleway&family=Roboto&display=swap");
+
+/*   SASS TEMPLATE     */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+@import "./include/variable.scss";
+
+@import "./include/globle.scss";
+
+@import "./include/typography.scss";
+
+@import "./include/color.scss";
+
+@import "./include/top-sale.scss";
+
+@import "./include/special-price.scss";
